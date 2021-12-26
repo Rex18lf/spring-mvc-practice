@@ -11,7 +11,8 @@ public class MyController {
 
     @RequestMapping("/")
     public String index(){
-        return "index";
+        System.out.println(1);
+    return "index";
     }
 
     @RequestMapping("/target")
