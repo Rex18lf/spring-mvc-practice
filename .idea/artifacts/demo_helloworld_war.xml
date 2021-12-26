@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demo-helloworld:war">
+    <output-path>$PROJECT_DIR$/demo-helloworld/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>demo-helloworld</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="demo-helloworld-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demo-helloworld:war exploded" />
+    </root>
+  </artifact>
+</component>
